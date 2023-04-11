@@ -1,0 +1,343 @@
+{
+  "root-font-family": {
+    "value": "Montserrat",
+    "type": "fontFamilies"
+  },
+  "big-headlines-font-family": {
+    "value": "Roboto Serif",
+    "type": "fontFamilies"
+  },
+  "font-scale-multiplyer": {
+    "value": 1.25,
+    "type": "fontSizes",
+    "description": "Choose the right font scale and write here the multiplyer"
+  },
+  "text-base": {
+    "value": 18,
+    "type": "fontSizes",
+    "description": "Font sizes here are taken from Tailwind system\nbody & h6"
+  },
+  "text-lg": {
+    "value": 22.5,
+    "type": "fontSizes",
+    "description": "h5"
+  },
+  "text-xl": {
+    "value": 28.13,
+    "type": "fontSizes",
+    "description": "h4"
+  },
+  "text-2xl": {
+    "value": 35.16,
+    "type": "fontSizes",
+    "description": "h3"
+  },
+  "text-3xl": {
+    "value": 43.95,
+    "type": "fontSizes",
+    "description": "h2"
+  },
+  "text-4xl": {
+    "value": 54.94,
+    "type": "fontSizes",
+    "description": "h1"
+  },
+  "text-5xl": {
+    "value": 68.68,
+    "type": "fontSizes",
+    "description": "h1"
+  },
+  "text-6xl": {
+    "value": 85.85,
+    "type": "fontSizes",
+    "description": "h1"
+  },
+  "text-7xl": {
+    "value": 107.31,
+    "type": "fontSizes",
+    "description": "h1"
+  },
+  "text-sm": {
+    "value": 14.4,
+    "type": "fontSizes"
+  },
+  "text-xs": {
+    "value": 11.52,
+    "type": "fontSizes"
+  },
+  "h1": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "ExtraBold",
+      "lineHeight": "Auto",
+      "fontSize": 54.94
+    },
+    "type": "typography"
+  },
+  "h2": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 43.95,
+      "textCase": ""
+    },
+    "type": "typography"
+  },
+  "h3": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 35.16
+    },
+    "type": "typography"
+  },
+  "h4": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 28.13
+    },
+    "type": "typography"
+  },
+  "display-sub-sans": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 28.13
+    },
+    "type": "typography"
+  },
+  "h5": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 22.5,
+      "textCase": ""
+    },
+    "type": "typography"
+  },
+  "h6": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "Auto",
+      "fontSize": 18
+    },
+    "type": "typography"
+  },
+  "body": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 500,
+      "lineHeight": "Auto",
+      "fontSize": 18,
+      "paragraphSpacing": "1rem"
+    },
+    "type": "typography"
+  },
+  "body-sm": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Regular",
+      "lineHeight": "Auto",
+      "fontSize": 14.4
+    },
+    "type": "typography"
+  },
+  "body-xs": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Regular",
+      "lineHeight": "Auto",
+      "fontSize": 11.52
+    },
+    "type": "typography"
+  },
+  "display-big": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "ExtraBold",
+      "lineHeight": "Auto",
+      "fontSize": 107.31
+    },
+    "type": "typography"
+  },
+  "display-sub-serif": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "ExtraBold",
+      "lineHeight": "Auto",
+      "fontSize": 35.16
+    },
+    "type": "typography"
+  },
+  "display-medium": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "ExtraBold",
+      "lineHeight": "Auto",
+      "fontSize": 85.85
+    },
+    "type": "typography"
+  },
+  "display-small": {
+    "value": {
+      "fontFamily": "Roboto Serif",
+      "fontWeight": "ExtraBold",
+      "lineHeight": "Auto",
+      "fontSize": 68.68
+    },
+    "type": "typography"
+  },
+  "Montserrat": {
+    "value": "Montserrat",
+    "type": "fontFamilies"
+  },
+  "Roboto": {
+    "value": "Roboto",
+    "type": "fontFamilies"
+  },
+  "Sora": {
+    "value": "Sora",
+    "type": "fontFamilies"
+  },
+  "Roboto Serif": {
+    "value": "Roboto Serif",
+    "type": "fontFamilies"
+  },
+  "primary": {
+    "100": {
+      "value": "#f2eff5",
+      "type": "color"
+    },
+    "200": {
+      "value": "#e6dfec",
+      "type": "color"
+    },
+    "300": {
+      "value": "#ccbfd9",
+      "type": "color"
+    },
+    "400": {
+      "value": "#b39fc6",
+      "type": "color"
+    },
+    "500": {
+      "value": "#9980b3",
+      "type": "color"
+    },
+    "600": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "700": {
+      "value": "#664d80",
+      "type": "color"
+    },
+    "800": {
+      "value": "#4d2e6b",
+      "type": "color"
+    },
+    "900": {
+      "value": "#331a4d",
+      "type": "color"
+    },
+    "1000": {
+      "value": "#050208",
+      "type": "color"
+    },
+    "hue": {
+      "value": 270,
+      "type": "color"
+    }
+  },
+  "Leading": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": 600,
+      "fontSize": 22.5
+    },
+    "type": "typography"
+  },
+  "lead": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontSize": 22.5
+    },
+    "type": "typography"
+  },
+  "neutral": {
+    "100": {
+      "value": "#f1f2f4",
+      "type": "color"
+    },
+    "200": {
+      "value": "#e3e5e8",
+      "type": "color"
+    },
+    "300": {
+      "value": "#c7cbd1",
+      "type": "color"
+    },
+    "400": {
+      "value": "#abb1ba",
+      "type": "color"
+    },
+    "500": {
+      "value": "#8f97a3",
+      "type": "color"
+    },
+    "600": {
+      "value": "#7b8593",
+      "type": "color",
+      "description": "Suitable for darkbackround (WCAG)"
+    },
+    "700": {
+      "value": "#5c6470",
+      "type": "color"
+    },
+    "800": {
+      "value": "#414a58",
+      "type": "color"
+    },
+    "900": {
+      "value": "#2b313b",
+      "type": "color"
+    },
+    "1000": {
+      "value": "#16191d",
+      "type": "color"
+    },
+    "hue": {
+      "value": 216,
+      "type": "color"
+    }
+  },
+  "system": {
+    "red-tlu": {
+      "value": "#b71234",
+      "type": "color"
+    },
+    "black": {
+      "value": "#000000",
+      "type": "color"
+    },
+    "white": {
+      "value": "#ffffff",
+      "type": "color"
+    },
+    "focus": {
+      "value": "#EB6424",
+      "type": "color"
+    },
+    "primary": {
+      "value": "#80609f",
+      "type": "color"
+    }
+  }
+}

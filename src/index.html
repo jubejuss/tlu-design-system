@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="../output/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="flex flex-col w-full min-h-screen gap-4 text-base p-8">
+    <h1>Elemendid</h1>
+    <section>
+      <h2>Typograafia</h2>
+      <h1>H1-taseme pealkiri</h1>
+      <h2>H2-taseme pealkiri</h2>
+      <h3>H3-taseme pealkiri</h3>
+      <h4>H4-taseme pealkiri</h4>
+      <h5>H5-taseme pealkiri</h5>
+      <h6>H6-taseme pealkiri</h6>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        labore, obcaecati perspiciatis quaerat ut ullam a architecto non
+        provident alias eligendi recusandae sint impedit. Dolorum laudantium
+        unde quos tempora voluptate?
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi
+        labore, obcaecati perspiciatis quaerat ut ullam a architecto non
+        provident alias eligendi recusandae sint impedit. Dolorum laudantium
+        unde quos tempora voluptate?
+      </p>
+    </section>
+    <section>
+      <h2>Nupud</h2>
+
+      <button class="btn btn-primary mb-4">Vajuta</button>
+      <button class="btn btn-secondary mb-4">Vajuta</button>
+      <button class="btn btn-primary mb-4">
+        <span class="material-icons">notifications</span>
+        Button
+      </button>
+      <button class="btn btn-primary mb-4 px-0">
+        <span class="material-icons">notifications</span>
+      </button>
+      <p>Nupp, mille puhul nupu tekst kaob kitsamas vaates:</p>
+      <button class="btn btn-primary mb-4 px-0 md:px-6">
+        <span class="material-icons">notifications</span>
+        <span class="hidden md:block">Vajuta</span>
+      </button>
+    </section>
+    <section>
+      <input class="input-single mb-4" type="text" placeholder="Kohahoidja" />
+      <p>
+        Et sisestusvälja laius oleks tasakaalus nupu laiusega, peaks sisestama
+        "calc(5ch+3rem)" osasse 5ch asemel selle tähtede arvu, mis nupul sildil
+        on:
+      </p>
+      <form class="input-w-button">
+        <input
+          class="input-single pr-[calc(5ch+3rem)]"
+          type="text"
+          placeholder="Kohahoidja"
+        />
+        <button class="btn btn-primary">Saada</button>
+      </form>
+      Sama sisestusvälja ja nupu komplekt, kus nupu tekst kaob kitsas vaates.
+      <p>
+        Et sisestusvälja laius oleks tasakaalus nupu laiusega, peaks sisestama
+        "calc(5ch+3rem)" osasse 5ch asemel selle tähtede arvu, mis nupul sildil
+        on pluss veel ikooniga kaasneva ja natuke veel, mis on ca 3ch-d:
+      </p>
+      <form class="input-w-button">
+        <input
+          class="input-single pr-[calc(1ch+3rem)] md:pr-[calc(8ch+3rem)]"
+          type="text"
+          placeholder="Kohahoidja"
+        />
+        <button class="btn btn-primary px-0 md:px-6">
+          <span class="material-icons">notifications</span>
+          <span class="hidden md:block">Vajuta</span>
+        </button>
+      </form>
+      Siin ka
+      <div>
+        <input type="text" />
+      </div>
+      <button>Test</button>
+      <p>Sildiga maskeeritud lüliti</p>
+      <div class="mode">
+        <input type="checkbox" id="mode" />
+        <label for="mode"></label>
+      </div>
+    </section>
+  </body>
+</html>

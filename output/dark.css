@@ -1,0 +1,10 @@
+.dark-theme {
+  --text: #f1f2f4;
+  --link: #f1f2f4;
+  --link-idle: #7b8593;
+  --link-active: #664d80;
+  --dark-drop-shadow: [object Object];
+  --dark-drop-shadow-strong: [object Object];
+  --link-hover: #c7cbd1;
+  --page-background: #050208;
+}

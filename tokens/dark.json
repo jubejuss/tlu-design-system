@@ -1,0 +1,50 @@
+{
+  "text": {
+    "value": "#f1f2f4",
+    "type": "color"
+  },
+  "link": {
+    "value": "#f1f2f4",
+    "type": "color"
+  },
+  "link-idle": {
+    "value": "#7b8593",
+    "type": "color"
+  },
+  "link-active": {
+    "value": "#664d80",
+    "type": "color"
+  },
+  "dark": {
+    "drop-shadow": {
+      "value": {
+        "color": "#ffffff40",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 22,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    },
+    "drop-shadow-strong": {
+      "value": {
+        "color": "#ffffff8c",
+        "type": "dropShadow",
+        "x": 0,
+        "y": 0,
+        "blur": 22,
+        "spread": 0
+      },
+      "type": "boxShadow"
+    }
+  },
+  "link-hover": {
+    "value": "#c7cbd1",
+    "type": "color"
+  },
+  "page-background": {
+    "value": "#050208",
+    "type": "color"
+  }
+}
