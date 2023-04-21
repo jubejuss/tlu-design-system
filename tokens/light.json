@@ -4,7 +4,7 @@
     "type": "color"
   },
   "text": {
-    "value": "#2b313b",
+    "value": "#414a58",
     "type": "color"
   },
   "link": {
@@ -50,5 +50,63 @@
   "page-background": {
     "value": "#FAFCFF",
     "type": "color"
+  },
+  "button": {
+    "default": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "hover": {
+      "value": "#664d80",
+      "type": "color"
+    },
+    "active": {
+      "value": "#4d2e6b",
+      "type": "color"
+    },
+    "focus": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#abb1ba",
+      "type": "color"
+    },
+    "secondary-default": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "secondary-label-default": {
+      "value": "#414a58",
+      "type": "color"
+    },
+    "secondary-hover": {
+      "value": "#664d80",
+      "type": "color"
+    },
+    "secondary-active": {
+      "value": "#4d2e6b",
+      "type": "color"
+    },
+    "secondary-focus": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "secondary-disabled": {
+      "value": "#abb1ba",
+      "type": "color"
+    },
+    "link": {
+      "value": "#4d2e6b",
+      "type": "color"
+    },
+    "link-hover": {
+      "value": "#664d80",
+      "type": "color"
+    },
+    "link-active": {
+      "value": "#80609f",
+      "type": "color"
+    }
   }
 }

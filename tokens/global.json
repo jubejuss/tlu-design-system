@@ -13,64 +13,65 @@
     "description": "Choose the right font scale and write here the multiplyer"
   },
   "text-base": {
-    "value": 18,
+    "value": "1.125rem",
     "type": "fontSizes",
     "description": "Font sizes here are taken from Tailwind system\nbody & h6"
   },
   "text-lg": {
-    "value": 22.5,
+    "value": "1.40625rem",
     "type": "fontSizes",
     "description": "h5"
   },
   "text-xl": {
-    "value": 28.13,
+    "value": "1.7578125rem",
     "type": "fontSizes",
     "description": "h4"
   },
   "text-2xl": {
-    "value": 35.16,
+    "value": "2.197265625rem",
     "type": "fontSizes",
     "description": "h3"
   },
   "text-3xl": {
-    "value": 43.95,
+    "value": "2.74658203125rem",
     "type": "fontSizes",
     "description": "h2"
   },
   "text-4xl": {
-    "value": 54.94,
+    "value": "3.4332275390625rem",
     "type": "fontSizes",
     "description": "h1"
   },
   "text-5xl": {
-    "value": 68.68,
+    "value": "4.291534423828125rem",
     "type": "fontSizes",
     "description": "h1"
   },
   "text-6xl": {
-    "value": 85.85,
+    "value": "5.364418029785156rem",
     "type": "fontSizes",
     "description": "h1"
   },
   "text-7xl": {
-    "value": 107.31,
+    "value": "6.705522537231445rem",
     "type": "fontSizes",
     "description": "h1"
   },
   "text-sm": {
-    "value": 14.4,
+    "value": "0.9rem",
     "type": "fontSizes"
   },
   "text-xs": {
-    "value": 11.52,
+    "value": "0.72rem",
     "type": "fontSizes"
   },
   "h1": {
     "value": {
       "fontFamily": "Roboto Serif",
       "fontWeight": "ExtraBold",
-      "lineHeight": "Auto",
-      "fontSize": 54.94
+      "lineHeight": "125%",
+      "fontSize": "3.4332275390625rem",
+      "paragraphSpacing": ""
     },
     "type": "typography"
   },
@@ -78,8 +79,8 @@
     "value": {
       "fontFamily": "Roboto Serif",
       "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 43.95,
+      "lineHeight": "125%",
+      "fontSize": "2.74658203125rem",
       "textCase": ""
     },
     "type": "typography"
@@ -88,8 +89,8 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 35.16
+      "lineHeight": "130%",
+      "fontSize": "2.197265625rem"
     },
     "type": "typography"
   },
@@ -97,17 +98,22 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 28.13
+      "lineHeight": "135%",
+      "fontSize": "1.7578125rem"
     },
     "type": "typography"
   },
   "display-sub-sans": {
     "value": {
       "fontFamily": "Montserrat",
-      "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 28.13
+      "fontWeight": 800,
+      "lineHeight": "auto",
+      "fontSize": "1.40625rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
@@ -115,8 +121,8 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 22.5,
+      "lineHeight": "140%",
+      "fontSize": "1.40625rem",
       "textCase": ""
     },
     "type": "typography"
@@ -125,8 +131,17 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
-      "lineHeight": "Auto",
-      "fontSize": 18
+      "lineHeight": "150%",
+      "fontSize": "1.125rem"
+    },
+    "type": "typography"
+  },
+  "image-caption": {
+    "value": {
+      "fontFamily": "Montserrat",
+      "fontWeight": "Bold",
+      "lineHeight": "150%",
+      "fontSize": "1.125rem"
     },
     "type": "typography"
   },
@@ -134,63 +149,97 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": 500,
-      "lineHeight": "Auto",
-      "fontSize": 18,
-      "paragraphSpacing": "1rem"
+      "lineHeight": "175%",
+      "fontSize": "1.125rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "1.75rem",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "body-sm": {
     "value": {
       "fontFamily": "Montserrat",
-      "fontWeight": "Regular",
-      "lineHeight": "Auto",
-      "fontSize": 14.4
+      "fontWeight": 500,
+      "lineHeight": "175%",
+      "fontSize": "0.9rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "1.75rem",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "body-xs": {
     "value": {
       "fontFamily": "Montserrat",
-      "fontWeight": "Regular",
-      "lineHeight": "Auto",
-      "fontSize": 11.52
+      "fontWeight": 500,
+      "lineHeight": "175%",
+      "fontSize": "0.72rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "1.75rem",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "display-big": {
     "value": {
       "fontFamily": "Roboto Serif",
-      "fontWeight": "ExtraBold",
-      "lineHeight": "Auto",
-      "fontSize": 107.31
+      "fontWeight": 800,
+      "lineHeight": "auto",
+      "fontSize": "6.705522537231445rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "display-sub-serif": {
     "value": {
       "fontFamily": "Roboto Serif",
-      "fontWeight": "ExtraBold",
-      "lineHeight": "Auto",
-      "fontSize": 35.16
+      "fontWeight": 800,
+      "lineHeight": "auto",
+      "fontSize": "2.197265625rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "display-medium": {
     "value": {
       "fontFamily": "Roboto Serif",
-      "fontWeight": "ExtraBold",
-      "lineHeight": "Auto",
-      "fontSize": 85.85
+      "fontWeight": 800,
+      "lineHeight": "175%",
+      "fontSize": "5.364418029785156rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "display-small": {
     "value": {
       "fontFamily": "Roboto Serif",
-      "fontWeight": "ExtraBold",
-      "lineHeight": "Auto",
-      "fontSize": 68.68
+      "fontWeight": 800,
+      "lineHeight": "auto",
+      "fontSize": "4.291534423828125rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
@@ -260,14 +309,27 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": 600,
-      "fontSize": 22.5
+      "lineHeight": "auto",
+      "fontSize": "1.40625rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
   "lead": {
     "value": {
       "fontFamily": "Montserrat",
-      "fontSize": 22.5
+      "fontWeight": 500,
+      "lineHeight": "175%",
+      "fontSize": "1.40625rem",
+      "letterSpacing": "",
+      "paragraphSpacing": "",
+      "paragraphIndent": "",
+      "textCase": "",
+      "textDecoration": ""
     },
     "type": "typography"
   },
@@ -339,5 +401,107 @@
       "value": "#80609f",
       "type": "color"
     }
+  },
+  "article-bottom": {
+    "value": "1rem",
+    "type": "spacing"
+  },
+  "article-section-bottom": {
+    "value": "1rem",
+    "type": "spacing"
+  },
+  "body-line-height": {
+    "value": "175%",
+    "type": "lineHeights"
+  },
+  "h1-line-height": {
+    "value": "125%",
+    "type": "lineHeights"
+  },
+  "h2-line-height": {
+    "value": "125%",
+    "type": "lineHeights"
+  },
+  "h3_line-height": {
+    "value": "130%",
+    "type": "lineHeights"
+  },
+  "h4-line-height": {
+    "value": "135%",
+    "type": "lineHeights"
+  },
+  "h5-line-height": {
+    "value": "140%",
+    "type": "lineHeights"
+  },
+  "h6-line-height": {
+    "value": "150%",
+    "type": "lineHeights"
+  },
+  "body-paragraph-spacing§§": {
+    "value": "1.75rem",
+    "type": "paragraphSpacing"
+  },
+  "h1-spacing-top": {
+    "value": "1.25rem",
+    "type": "spacing"
+  },
+  "h1-spacing-bottom": {
+    "value": "0.5rem",
+    "type": "spacing"
+  },
+  "h2-spacing-top": {
+    "value": "1.25rem",
+    "type": "spacing"
+  },
+  "h2-spacing-bottom": {
+    "value": "0.5rem",
+    "type": "spacing"
+  },
+  "h3-spacing-top": {
+    "value": "1.3rem",
+    "type": "spacing"
+  },
+  "h3-spacing-bottom": {
+    "value": "0.5rem",
+    "type": "spacing"
+  },
+  "h4-spacing-top": {
+    "value": "1.35rem",
+    "type": "spacing"
+  },
+  "h4-spacing-bottom": {
+    "value": "0.5rem",
+    "type": "spacing"
+  },
+  "h5-spacing-top": {
+    "value": "1.4rem",
+    "type": "spacing"
+  },
+  "h5-spacing-bottom": {
+    "value": "0.25rem",
+    "type": "spacing"
+  },
+  "h6-spacing-top": {
+    "value": "1.5rem",
+    "type": "spacing"
+  },
+  "h6-spacing-bottom": {
+    "value": "0.2rem",
+    "type": "spacing"
+  },
+  "body-spacing": {
+    "value": "0.5rem",
+    "type": "spacing",
+    "description": "This is for p element spacing"
+  },
+  "article-image-spacing": {
+    "value": "3rem",
+    "type": "spacing"
+  },
+  "image-block-gap": {
+    "value": "1rem",
+    "type": "spacing",
+    "description": "Put image, image headline, description and autohor into one column grid and use this gap"
   }
 }

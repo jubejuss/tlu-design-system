@@ -1,6 +1,6 @@
 .light-theme {
   --active-menu-stroke-on: linear-gradient(204deg, #f2f8fd29 0%, #f2fcfd00 100%);
-  --text: #2b313b;
+  --text: #414a58;
   --link: #2b313b;
   --link-idle: #5c6470;
   --link-action: #80609f;
@@ -12,4 +12,18 @@
   --link-active: #4d2e6b;
   --link-hover: #80609f;
   --page-background: #FAFCFF;
+  --button-default: #80609f;
+  --button-hover: #664d80;
+  --button-active: #4d2e6b;
+  --button-focus: #80609f;
+  --button-disabled: #abb1ba;
+  --button-secondary-default: #80609f;
+  --button-secondary-label-default: #414a58;
+  --button-secondary-hover: #664d80;
+  --button-secondary-active: #4d2e6b;
+  --button-secondary-focus: #80609f;
+  --button-secondary-disabled: #abb1ba;
+  --button-link: #4d2e6b;
+  --button-link-hover: #664d80;
+  --button-link-active: #80609f;
 }

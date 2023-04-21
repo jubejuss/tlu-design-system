@@ -46,5 +46,63 @@
   "page-background": {
     "value": "#050208",
     "type": "color"
+  },
+  "button": {
+    "default": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "hover": {
+      "value": "#664d80",
+      "type": "color"
+    },
+    "active": {
+      "value": "#4d2e6b",
+      "type": "color"
+    },
+    "focus": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "disabled": {
+      "value": "#abb1ba",
+      "type": "color"
+    },
+    "secondary-default": {
+      "value": "#b39fc6",
+      "type": "color"
+    },
+    "secondary-label-default": {
+      "value": "#f1f2f4",
+      "type": "color"
+    },
+    "secondary-hover": {
+      "value": "#9980b3",
+      "type": "color"
+    },
+    "secondary-active": {
+      "value": "#80609f",
+      "type": "color"
+    },
+    "secondary-focus": {
+      "value": "#b39fc6",
+      "type": "color"
+    },
+    "secondary-disabled": {
+      "value": "#e3e5e8",
+      "type": "color"
+    },
+    "link": {
+      "value": "#e6dfec",
+      "type": "color"
+    },
+    "link-hover": {
+      "value": "#ccbfd9",
+      "type": "color"
+    },
+    "link-active": {
+      "value": "#b39fc6",
+      "type": "color"
+    }
   }
 }
