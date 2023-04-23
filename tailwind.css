@@ -909,7 +909,7 @@ body {
   border-radius: 100px;
   background-color: var(--primary-700);
   position: relative;
-  background-image: url(/output/img/darklight.svg);
+  background-image: url(output/img/darklight.svg);
   background-repeat: no-repeat;
   background-position: center;
   transition: all 1s;
