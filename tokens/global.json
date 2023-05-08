@@ -13,56 +13,56 @@
     "description": "Choose the right font scale and write here the multiplyer"
   },
   "text-base": {
-    "value": "1.125rem",
+    "value": 18,
     "type": "fontSizes",
     "description": "Font sizes here are taken from Tailwind system\nbody & h6"
   },
   "text-lg": {
-    "value": "1.40625rem",
+    "value": 22.5,
     "type": "fontSizes",
     "description": "h5"
   },
   "text-xl": {
-    "value": "1.7578125rem",
+    "value": 28.125,
     "type": "fontSizes",
     "description": "h4"
   },
   "text-2xl": {
-    "value": "2.197265625rem",
+    "value": 35.156,
     "type": "fontSizes",
     "description": "h3"
   },
   "text-3xl": {
-    "value": "2.74658203125rem",
+    "value": 43.945,
     "type": "fontSizes",
     "description": "h2"
   },
   "text-4xl": {
-    "value": "3.4332275390625rem",
+    "value": 54.931,
     "type": "fontSizes",
     "description": "h1"
   },
   "text-5xl": {
-    "value": "4.291534423828125rem",
+    "value": 68.664,
     "type": "fontSizes",
     "description": "h1"
   },
   "text-6xl": {
-    "value": "5.364418029785156rem",
+    "value": 85.83,
     "type": "fontSizes",
     "description": "h1"
   },
   "text-7xl": {
-    "value": "6.705522537231445rem",
+    "value": 107.287,
     "type": "fontSizes",
     "description": "h1"
   },
   "text-sm": {
-    "value": "0.9rem",
+    "value": 14.4,
     "type": "fontSizes"
   },
   "text-xs": {
-    "value": "0.72rem",
+    "value": 11.52,
     "type": "fontSizes"
   },
   "h1": {
@@ -70,7 +70,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": "ExtraBold",
       "lineHeight": "125%",
-      "fontSize": "3.4332275390625rem",
+      "fontSize": 54.931,
       "paragraphSpacing": ""
     },
     "type": "typography"
@@ -80,7 +80,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": "Bold",
       "lineHeight": "125%",
-      "fontSize": "2.74658203125rem",
+      "fontSize": 43.945,
       "textCase": ""
     },
     "type": "typography"
@@ -90,7 +90,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
       "lineHeight": "130%",
-      "fontSize": "2.197265625rem"
+      "fontSize": 35.156
     },
     "type": "typography"
   },
@@ -99,7 +99,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
       "lineHeight": "135%",
-      "fontSize": "1.7578125rem"
+      "fontSize": 28.125
     },
     "type": "typography"
   },
@@ -108,7 +108,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 800,
       "lineHeight": "auto",
-      "fontSize": "1.40625rem",
+      "fontSize": 22.5,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -122,7 +122,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
       "lineHeight": "140%",
-      "fontSize": "1.40625rem",
+      "fontSize": 22.5,
       "textCase": ""
     },
     "type": "typography"
@@ -132,7 +132,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
       "lineHeight": "150%",
-      "fontSize": "1.125rem"
+      "fontSize": 18
     },
     "type": "typography"
   },
@@ -141,7 +141,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": "Bold",
       "lineHeight": "150%",
-      "fontSize": "1.125rem"
+      "fontSize": 18
     },
     "type": "typography"
   },
@@ -150,7 +150,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 500,
       "lineHeight": "175%",
-      "fontSize": "1.125rem",
+      "fontSize": 18,
       "letterSpacing": "",
       "paragraphSpacing": "1.75rem",
       "paragraphIndent": "",
@@ -164,7 +164,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 500,
       "lineHeight": "175%",
-      "fontSize": "0.9rem",
+      "fontSize": 14.4,
       "letterSpacing": "",
       "paragraphSpacing": "1.75rem",
       "paragraphIndent": "",
@@ -178,7 +178,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 500,
       "lineHeight": "175%",
-      "fontSize": "0.72rem",
+      "fontSize": 11.52,
       "letterSpacing": "",
       "paragraphSpacing": "1.75rem",
       "paragraphIndent": "",
@@ -192,7 +192,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": 800,
       "lineHeight": "auto",
-      "fontSize": "6.705522537231445rem",
+      "fontSize": 107.287,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -206,7 +206,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": 800,
       "lineHeight": "auto",
-      "fontSize": "2.197265625rem",
+      "fontSize": 35.156,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -220,7 +220,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": 800,
       "lineHeight": "175%",
-      "fontSize": "5.364418029785156rem",
+      "fontSize": 85.83,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -234,7 +234,7 @@
       "fontFamily": "Roboto Serif",
       "fontWeight": 800,
       "lineHeight": "auto",
-      "fontSize": "4.291534423828125rem",
+      "fontSize": 68.664,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -310,7 +310,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 600,
       "lineHeight": "auto",
-      "fontSize": "1.40625rem",
+      "fontSize": 22.5,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -324,7 +324,7 @@
       "fontFamily": "Montserrat",
       "fontWeight": 500,
       "lineHeight": "175%",
-      "fontSize": "1.40625rem",
+      "fontSize": 22.5,
       "letterSpacing": "",
       "paragraphSpacing": "",
       "paragraphIndent": "",
@@ -438,7 +438,7 @@
     "value": "150%",
     "type": "lineHeights"
   },
-  "body-paragraph-spacing§§": {
+  "body-paragraph-spacing": {
     "value": "1.75rem",
     "type": "paragraphSpacing"
   },
