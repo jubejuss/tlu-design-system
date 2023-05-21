@@ -163,7 +163,7 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": 500,
-      "lineHeight": "175%",
+      "lineHeight": "125%",
       "fontSize": 14.4,
       "letterSpacing": "",
       "paragraphSpacing": "1.75rem",
@@ -177,7 +177,7 @@
     "value": {
       "fontFamily": "Montserrat",
       "fontWeight": 500,
-      "lineHeight": "175%",
+      "lineHeight": "125%",
       "fontSize": 11.52,
       "letterSpacing": "",
       "paragraphSpacing": "1.75rem",
@@ -302,7 +302,8 @@
     },
     "hue": {
       "value": 270,
-      "type": "color"
+      "type": "color",
+      "description": "tets"
     }
   },
   "Leading": {
@@ -399,6 +400,10 @@
     },
     "primary": {
       "value": "#80609f",
+      "type": "color"
+    },
+    "primary-revert": {
+      "value": "#9F8060",
       "type": "color"
     }
   },
@@ -503,5 +508,27 @@
     "value": "1rem",
     "type": "spacing",
     "description": "Put image, image headline, description and autohor into one column grid and use this gap"
+  },
+  "card-border-radius": {
+    "value": "0.5rem",
+    "type": "borderRadius"
+  },
+  "card-border-width": {
+    "value": 2,
+    "type": "borderWidth"
+  },
+  "primary-revert": {
+    "100": {
+      "value": "#E2D9CF",
+      "type": "color"
+    }
+  },
+  "body-sm-line-height": {
+    "value": "125%",
+    "type": "lineHeights"
+  },
+  "body-xs-line-height": {
+    "value": "125%",
+    "type": "lineHeights"
   }
 }

@@ -30,14 +30,23 @@
   --button-link: #4d2e6b;
   --button-link-hover: #664d80;
   --button-link-active: #80609f;
+  --table-cell: #FAFCFF;
+  --table-header-cell: #e6dfec;
+  --table-hover-cell: #f2eff5;
+  --card-stroke: #80609f;
+  --card-hover-shadow: [object Object];
+  --stroke: #E2D9CF;
+  --drop-shadow: [object Object];
+  --radio-shadow: [object Object];
+  --radio-shadow-hover: [object Object];
 }
 .dark-theme {
   --text: #f1f2f4;
   --link: #f1f2f4;
   --link-idle: #7b8593;
   --link-active: #664d80;
-  --dark-drop-shadow: [object Object];
-  --dark-drop-shadow-strong: [object Object];
+  --drop-shadow: [object Object];
+  --drop-shadow-strong: [object Object];
   --link-hover: #c7cbd1;
   --page-background: #050208;
   --button-default: #80609f;
@@ -54,6 +63,17 @@
   --button-link: #e6dfec;
   --button-link-hover: #ccbfd9;
   --button-link-active: #b39fc6;
+  --table-cell: #050208;
+  --table-header-cell: #4d2e6b;
+  --table-hover-cell: #331a4d;
+  --card-background: linear-gradient(35deg, #0d0811 0%, #553b6c30 100%);
+  --menu-card-background: linear-gradient(0deg, #291A37 0%, #291B37 11%, #3E314A 100%);
+  --menu-card-stroke: linear-gradient(180deg, #f2f8fd29 0%, #f2fcfd00 100%);
+  --card-stroke: #331a4d;
+  --card-hover-shadow: [object Object];
+  --stroke: #4d2e6b;
+  --radio-shadow-hover: [object Object];
+  --radio-shadow: [object Object];
 }
 /*
 ! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
@@ -797,6 +817,7 @@ code {
   --system-white: #ffffff;
   --system-focus: #EB6424;
   --system-primary: #80609f;
+  --system-primary-revert: #9F8060;
   --article-bottom: 1rem;
   --article-section-bottom: 1rem;
   --body-line-height: 175%;
@@ -822,6 +843,11 @@ code {
   --body-spacing: 0.5rem;
   --article-image-spacing: 3rem;
   --image-block-gap: 1rem;
+  --card-border-radius: 0.5rem;
+  --card-border-width: 2;
+  --primary-revert-100: #E2D9CF;
+  --body-sm-line-height: 125%;
+  --body-xs-line-height: 125%;
 }
 ::-moz-placeholder {
   font-style: italic;
@@ -868,6 +894,7 @@ h6 {
 }
 p {
   margin-bottom: var(--body-paragraph-spacing);
+  line-height: var(--body-line-height);
 }
 /* @layer base {
   h1 {

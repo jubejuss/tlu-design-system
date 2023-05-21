@@ -57,6 +57,7 @@ h6 {
 }
 p {
   margin-bottom: var(--body-paragraph-spacing);
+  line-height: var(--body-line-height);
 }
 
 /* @layer base {
